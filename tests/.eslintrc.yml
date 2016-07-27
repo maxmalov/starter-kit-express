@@ -1,0 +1,15 @@
+extends: airbnb-base
+env:
+  browser: false
+  node: true
+globals:
+  expect: true
+rules:
+  func-names: 0
+  prefer-arrow-callback: 0
+  no-unused-expressions: 0
+  padded-blocks: 0
+  import/no-extraneous-dependencies:
+    - 2
+    -
+      devDependencies: true

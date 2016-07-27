@@ -1,0 +1,6 @@
+logs
+tests
+config/development.yml
+config/test.yml
+.*
+nodemon.json
