@@ -1,6 +1,6 @@
 # Starter Kit
 
-[![Build Status](https://travis-ci.org/maxmalov/starter-kit-express.svg?branch=master)](https://travis-ci.org/maxmalov/starter-kit-express)[![dependencies](https://david-dm.org/maxmalov/starter-kit-express.png)](https://david-dm.org/maxmalov/starter-kit-express)[![devDependencies](https://david-dm.org/maxmalov/starter-kit-express/dev-status.png)](https://david-dm.org/maxmalov/starter-kit-express#info=devDependencies)
+[![Build Status](https://travis-ci.org/maxmalov/starter-kit-express.svg?branch=master)](https://travis-ci.org/maxmalov/starter-kit-express)[![dependencies](https://david-dm.org/maxmalov/starter-kit-express.png)](https://david-dm.org/maxmalov/starter-kit-express)[![devDependencies](https://david-dm.org/maxmalov/starter-kit-express/dev-status.png)](https://david-dm.org/maxmalov/starter-kit-express?type=dev)
 
 ### Commands
 

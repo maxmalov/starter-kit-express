@@ -1,6 +1,7 @@
 const path = require('path');
 const nconf = require('nconf');
 const nconfYaml = require('nconf-yaml');
+
 const env = process.env.NODE_ENV;
 
 const config = new nconf.Provider({
