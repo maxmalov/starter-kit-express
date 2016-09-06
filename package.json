@@ -10,7 +10,7 @@
     "test": "jest",
     "precommit": "npm-run-all --parallel lint test",
     "prepush": "npm-run-all --parallel lint test security",
-    "ci": "npm run prepush"
+    "ci": "npm run prepush && snyk test https://github.com/maxmalov/starter-kit-express"
   },
   "engines": {
     "node": ">=6.3.0",
@@ -45,6 +45,7 @@
     "nsp": "2.6.1",
     "sinon": "1.17.5",
     "sinon-chai": "2.8.0",
+    "snyk": "1.19.1",
     "supertest": "2.0.0",
     "supertest-as-promised": "4.0.0"
   },
