@@ -2,8 +2,7 @@ extends: airbnb-base
 env:
   browser: false
   node: true
-globals:
-  expect: true
+  jest: true
 rules:
   func-names: 0
   prefer-arrow-callback: 0
