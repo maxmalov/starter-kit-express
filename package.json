@@ -5,7 +5,7 @@
   "description": "Some stuff goes here",
   "scripts": {
     "start": "nodemon index.js",
-    "lint": "eslint ./",
+    "lint": "eslint --ext .js,.jsx ./",
     "security": "nsp check",
     "test": "jest",
     "precommit": "npm-run-all --parallel lint test",
