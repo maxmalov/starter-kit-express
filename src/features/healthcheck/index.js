@@ -1,5 +1,5 @@
 const healthCheckController = require('./healthcheck-controller');
 
-module.exports = router => {
+module.exports = (router) => {
   router.get('/healthcheck', healthCheckController);
 };

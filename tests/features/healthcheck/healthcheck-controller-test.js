@@ -7,7 +7,7 @@ const application = createTestApp(healthcheckFeature);
 
 it('return a valid response', () => application.get('/healthcheck')
   .expect(200)
-  .then(res => {
+  .then((res) => {
     expect(res.body).to.be.jsonSchema(ResponseSchema);
   })
 );
