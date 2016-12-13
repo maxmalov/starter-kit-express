@@ -1,6 +1,6 @@
 logs
 tests
-config/development.yml
+config/development.json
 config/test.yml
 .*
 nodemon.json

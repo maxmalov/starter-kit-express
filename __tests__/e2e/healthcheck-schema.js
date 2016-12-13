@@ -3,7 +3,7 @@ module.exports = {
   required: ['status'],
   properties: {
     status: {
-      type: 'string',
-    },
-  },
+      type: 'string'
+    }
+  }
 };

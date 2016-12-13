@@ -1,6 +1,5 @@
 const path = require('path');
 const nconf = require('nconf');
-const nconfYaml = require('nconf-yaml');
 
 const env = process.env.NODE_ENV;
 
@@ -9,9 +8,8 @@ const config = new nconf.Provider({
   argv: true,
   store: {
     type: 'file',
-    file: path.join(__dirname, '..', '..', 'config', `${env}.yml`),
-    format: nconfYaml,
-  },
+    file: path.join(__dirname, '..', '..', 'config', `${env}.json`)
+  }
 });
 
 config.argv()
@@ -19,8 +17,7 @@ config.argv()
   .required([
     'NODE_ENV',
     'port',
-    'session:secret',
-    'cookie:secret',
+    'apiRoot'
   ]);
 
 module.exports = config;

@@ -1,7 +1,0 @@
-session:
-  secret: session-secret
-
-cookie:
-  secret: cookie-secret
-
-port: 3001

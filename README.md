@@ -5,11 +5,32 @@
 ### Commands
 
 - `npm start` will start server at 3000 port
-- `npm test` will test the shit out
+- `npm test` will run project tests
 
 ## API Concepts
 
-### Features
+### Controllers
 
-All business logic should be extracted into independent feature modules. Feature module usually include list of services, models, request controllers and mainly install function. This function should be placed in the feature root folder and it is responsible for feature injection in an application server (setup routes, middlewares, etc). See `src/features/healthcheck` as example. By this approach each feature can be easily tested in an isolation: we just create sample express application, inject one feature and test it with superagent. See `tests/features/healthcheck` as test example.
+Each endpoints controller should have a setup function, which is responsible for routing for such specific controller, for ex.
 
+```js
+
+// controllers/my-controller.js
+
+function pong(req, res) {
+  res.set({ 'Content-Type': 'text/plain' });
+  res.end('pong');
+}
+
+module.exports = {
+  
+  pong,
+  
+  // draw all controller specific routes here
+  setup(router) {
+    router.get('/ping', pong)
+  }
+  
+};
+
+```

@@ -1,0 +1,13 @@
+{
+  "apiRoot": "/api",
+  "port": 3001,
+  "logger": {
+    "streams": [{
+      "level": "debug",
+      "path": "logs/test.log",
+      "type": "rotating-file",
+      "period": "1d",
+      "count": 2
+    }]
+  }
+}
