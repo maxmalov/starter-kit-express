@@ -3,7 +3,8 @@
   "env": {
     "browser": false,
     "node": true,
-    "jest": true
+    "jest": true,
+    "jasmine": true
   },
   "rules": {
     "comma-dangle": ["error", "never"],

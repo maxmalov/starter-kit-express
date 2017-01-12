@@ -1,4 +1,4 @@
 const app = require('../src/components/app');
-const supertest = require('supertest-as-promised');
+const supertest = require('supertest');
 
-module.exports = supertest.agent(app);
+module.exports = supertest(app);

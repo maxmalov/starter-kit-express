@@ -35,11 +35,11 @@
     "jest": "^17.0.3",
     "nodemon": "1.11.0",
     "nsp": "2.6.2",
-    "supertest": "^2.0.1",
-    "supertest-as-promised": "^4.0.2"
+    "supertest": "^2.0.1"
   },
   "jest": {
     "testEnvironment": "node",
-    "testRegex": ".test\\.js$"
+    "testRegex": ".test\\.js$",
+    "setupTestFrameworkScriptFile": "<rootDir>/__tests__/custom-matchers.js"
   }
 }
