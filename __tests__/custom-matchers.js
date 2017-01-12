@@ -1,13 +1,3 @@
-const validateSchema = require('./validate-schema');
+const installAjvMatcher = require('jasmine-ajv');
 
-const matchers = {
-
-  toBeJsonSchema() {
-    return {
-      compare: validateSchema
-    };
-  }
-
-};
-
-jasmine.addMatchers(matchers);
+installAjvMatcher(jasmine);

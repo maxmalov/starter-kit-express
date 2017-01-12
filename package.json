@@ -28,10 +28,10 @@
     "require-all": "^2.1.0"
   },
   "devDependencies": {
-    "ajv": "^4.10.0",
     "eslint": "^3.12.1",
     "eslint-config-airbnb-base": "^11.0.0",
     "eslint-plugin-import": "^2.2.0",
+    "jasmine-ajv": "^1.0.0",
     "jest": "^17.0.3",
     "nodemon": "1.11.0",
     "nsp": "2.6.2",
