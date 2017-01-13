@@ -23,7 +23,6 @@
     "http-errors": "^1.5.1",
     "http-status": "0.2.3",
     "lodash": "^4.17.2",
-    "mkdirp": "0.5.1",
     "nconf": "0.8.4",
     "require-all": "^2.1.0"
   },

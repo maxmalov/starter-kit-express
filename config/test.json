@@ -4,7 +4,7 @@
   "logger": {
     "streams": [{
       "level": "debug",
-      "path": "logs/test.log",
+      "path": "test.log",
       "type": "rotating-file",
       "period": "1d",
       "count": 2
