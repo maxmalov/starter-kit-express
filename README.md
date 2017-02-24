@@ -4,7 +4,7 @@
 
 ### Commands
 
-- `npm start` will start server at 3000 port
+- `npm start` will start server at 3001 port
 - `npm test` will run project tests
 
 ## API Concepts
